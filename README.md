@@ -24,7 +24,7 @@ I have already seeded the databse with some dataset so you can view the changes 
 
 
 Steps to use the app
-1. In postman, send GET Request to "http://localhost:3000/users/<userId>" to get information about a particular user. Entering wrong userId will not crash the        server, as the code is sufficiently error handled.
+1. In postman, send GET Request to "http://localhost:3000/users/userId" to get information about a particular user. Entering wrong userId will not crash the        server, as the code is sufficiently error handled.
   
 2. In postman, send POST Request to "http://localhost:3000/users" to post new user information. Note that you have to send information as JSON. To do that go to      body, select raw from options and from drop down menu select JSON. Look for the proper format for JSON. To avoid typing, here is one samples of data for you      to just paste in body:
     {
@@ -38,7 +38,7 @@ Steps to use the app
   
   NOTE: The age is set as an example to be allowed above 18.
  
-3. In postman, send POST Request to "http://localhost:3000/users/<userId>" to get information about a particular user. Entering wrong userId will not crash the      server, as the code is sufficiently error handled.Note that you have to send information as JSON. To do that go to body, select raw from options and              from drop down menu select JSON. Look for the proper format for JSON. To avoid typing, here is one samples of data for you to just paste in body:
+3. In postman, send POST Request to "http://localhost:3000/users/userId" to get information about a particular user. Entering wrong userId will not crash the      server, as the code is sufficiently error handled.Note that you have to send information as JSON. To do that go to body, select raw from options and              from drop down menu select JSON. Look for the proper format for JSON. To avoid typing, here is one samples of data for you to just paste in body:
 
       "http://localhost:3000/users/2"
       {
