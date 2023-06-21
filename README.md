@@ -1,6 +1,3 @@
-# profile-management-asssignment
-Profile management assignment by dhandolat
-
 
 Steps to setup the app:
 1. Download/clone/fork the code
